@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HomePage</title>
+<link href="css/jquery.slideBox.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.slideBox.js" type="text/javascript"></script>
+<script>
+jQuery(function($){
+	$('#demo1').slideBox();
+	$('#demo2').slideBox({
+		direction : 'top',//left,top#方向
+		duration : 0.3,//滚动持续时间，单位：秒
+		easing : 'linear',//swing,linear//滚动特效
+		delay : 5,//滚动延迟时间，单位：秒
+		startIndex : 1//初始焦点顺序
+	});
+	$('#demo3').slideBox({
+		duration : 0.3,//滚动持续时间，单位：秒
+		easing : 'linear',//swing,linear//滚动特效
+		delay : 5,//滚动延迟时间，单位：秒
+		hideClickBar : false,//不自动隐藏点选按键
+		clickBarRadius : 10
+	});
+	$('#demo4').slideBox({
+		hideBottomBar : true//隐藏底栏
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="demo1" class="slideBox">
+  <ul class="items">
+    <li><a href="index.html" title="我的主页"><img src="img/1.jpg" width="1344" height="756"></a></li>
+    <li><a href="Hometown.html" title="港湾依靠" target="_blank"><img src="img/2.jpg" width="1344" height="756"></a></li>
+    <li><a href="School.html" title="校园时光" target="_blank"><img src="img/3.jpg" width="1344" height="756"></a></li>
+    <li><a href="Travel.html" title="走走停停" target="_blank"><img src="img/4.jpg" width="1344" height="756"></a></li>
+    <li><a href="MyLove.html" title="分享所爱" target="_blank"><img src="img/5.jpg" width="1344" height="756"></a></li>
+  </ul>
+</div>
+
+</body>
+</html>
