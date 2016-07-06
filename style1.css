@@ -1,0 +1,134 @@
+main {
+	background: url("images/bj.jpg") fixed no-repeat top; margin: 0px; padding: 0px; color: rgb(142, 117, 85); line-height: 1.6em; letter-spacing: 1px; font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px;
+}
+
+p {
+	margin: 0px 0px 10px; padding: 0px;
+}
+img {
+	border: currentColor; border-image: none;
+}
+blockquote {
+	margin: 0px 0px 0px 10px; font-style: italic;
+}
+cite {
+	color: rgb(198, 58, 3); font-weight: bold;
+}
+cite a {
+	color: rgb(198, 58, 3); font-weight: bold;
+}
+cite a:link {
+	color: rgb(198, 58, 3); font-weight: bold;
+}
+cite a:visited {
+	color: rgb(198, 58, 3); font-weight: bold;
+}
+cite span {
+	color: rgb(142, 117, 85); font-weight: 400;
+}
+em {
+	color: rgb(198, 58, 3);
+}
+h1 {
+	color: rgb(98, 38, 14); font-weight: normal;
+}
+h2 {
+	color: rgb(98, 38, 14); font-weight: normal;
+}
+h3 {
+	color: rgb(98, 38, 14); font-weight: normal;
+}
+h4 {
+	color: rgb(98, 38, 14); font-weight: normal;
+}
+h5 {
+	color: rgb(98, 38, 14); font-weight: normal;
+}
+h6 {
+	color: rgb(98, 38, 14); font-weight: normal;
+}
+h1 {
+	margin: 0px 0px 30px; padding: 5px 0px; font-size: 48px;
+}
+h2 {
+	margin: 0px 0px 25px; padding: 5px 0px; font-size: 34px;
+}
+h3 {
+	margin: 0px 0px 20px; padding: 0px; font-size: 24px;
+}
+h4 {
+	margin: 0px 0px 15px; padding: 0px; font-size: 20px;
+}
+h5 {
+	margin: 0px 0px 10px; padding: 0px; font-size: 16px;
+}
+h6 {
+	margin: 0px 0px 5px; padding: 0px; font-size: 12px;
+}
+.cleaner {
+	clear: both;
+}
+.h10 {
+	height: 10px;
+}
+.h20 {
+	height: 20px;
+}
+.h30 {
+	height: 30px;
+}
+.h40 {
+	height: 40px;
+}
+.h50 {
+	height: 50px;
+}
+.h60 {
+	height: 60px;
+}
+.float_l {
+	float: left;
+}
+.float_r {
+	float: right;
+}
+.image_frame {
+	border: 5px solid rgb(163, 141, 104); border-image: none; display: inline-block;
+}
+.image_fl {
+	margin: 3px 20px 10px 0px; float: left;
+}
+.image_fr {
+	margin: 3px 0px 0px 20px; float: right;
+}
+
+#main {
+	background: url("images/main.png") repeat-y; padding: 33px 33px 0px; width: 1000px;
+}
+#main_bottom {
+	background: url("images/main.png") repeat-y center; width: 966px; height: 10px;
+}
+#sidebar {
+	width: 280px; float: left;
+}
+#content {
+	width: 650px; float: right;
+}
+.cbox_fw {
+	background: url("images/hr2.png") no-repeat bottom; padding-bottom: 20px; clear: both; margin-bottom: 40px;
+}
+.cbox_fw p {
+	color: rgb(85, 85, 85); line-height: 32px; text-indent: 2em; font-size: 18px;
+}
+.cbox_fws {
+	background: url("images/hr1.png") no-repeat bottom; padding-bottom: 20px; clear: both; margin-bottom: 40px;
+}
+.cbox_last {
+	background: none; margin: 0px; padding: 0px;
+}
+.cbox_w280 {
+	width: 280px; margin-bottom: 20px;
+}
+.cbox_w280 img {
+	margin-bottom: 10px;
+}

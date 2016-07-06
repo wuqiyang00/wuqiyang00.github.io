@@ -1,0 +1,200 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>走走停停</title>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+<link rel="stylesheet" href="css/example.css">
+	<script src="js/sHover.min.js"></script>
+	<script>
+	window.onload=function(){
+		var downLoadBtn=document.getElementById('headBtn');
+		downLoadBtn.onclick=function(){
+			scrollToBottom(downLoadBtn);
+		}
+
+		 var b=new sHover('head','headIntro');
+
+		 var a=new sHover("sHoverItem","sIntro");
+		 a.set({
+		 	slideSpeed:5,
+		 	opacityChange:true,
+		 	opacity:80
+		 });
+
+	}
+	function scrollToBottom(a){
+		if(windowHeight()){
+			clearInterval(a.scrollTimer);
+			var scrollSpeed=100;
+			a.scrollTimer=setInterval(function(){
+				document.documentElement.scrollTop+=scrollSpeed;
+				document.body.scrollTop+=scrollSpeed;
+				if((document.documentElement.scrollTop>=(document.documentElement.scrollHeight-windowHeight()))||(document.body.scrollTop>=(document.documentElement.scrollHeight-windowHeight()))){
+					clearInterval(a.scrollTimer);
+				}
+			},13);
+		}else{
+			//a.setAttribute('href', 'http://www.baidu.com');
+		}
+	}
+	function windowHeight(){
+		if(document.documentElement){
+			return document.documentElement.clientHeight;
+		}else{
+			return document.body.clientHeight;
+		}	
+	}
+	</script>
+    <style type="text/css">
+<!--
+.STYLE1 {font-size: 24}
+-->
+    </style>
+
+</head>
+<body>
+
+<header>
+		<nav id="cd-top-nav">
+
+		</nav>
+	<a id="cd-menu-trigger" href="#0"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>  </header>
+	<main class="cd-main-content">
+
+		<!-- put your content here -->
+<div class="head">
+	  <h1>走走停停</h1>
+		<h2 class="STYLE1">身体和灵魂<span class="hideText" id="headH2">____________________________</span></h2>
+	    <span class="headIntro">
+			<div id="headLine"></div>
+		  <h2 class="STYLE1"><span class="hideText"></span>总有一个要在路上<span class="hideText"></span></h2>
+			<a href="#" name="headBtn" id="headBtn">Download !</a>	  </span>
+</div>
+<embed src="陈绮贞 - 旅行的意义.mp3"  autostart="true" loop="true" hidden="true"></embed>
+	<div id="part3" class="part">
+		<h2>&nbsp;</h2>
+		<div class="container">
+			<div id="item1" class="sHoverItem">
+				<img id="img1" src="images/1.jpg">
+				<span id="intro1" class="sIntro">
+					<h2>2001</h2>	
+					<p>上有天堂，下有苏杭</p>
+					<button>苏杭</button>
+				</span>
+			</div>
+			<div id="item2" class="sHoverItem">
+				<img src="images/2.jpg">
+				<span class="sIntro">
+					<h2>2004</h2>	
+					<p>不到长城非好汉</p>
+					<button>北京</button>
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/3.jpg">
+				<span class="sIntro">
+					<h2>2005</h2>	
+					<p>你可知妈港，不是我真名</p>
+					<button>澳门</button>	
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/4.jpg">
+				<span class="sIntro">
+					<h2>2006</h2>	
+					<p>收来一曲水，放出半天云</p>
+					<button>陕豫</button>	
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/5.jpg">
+				<span class="sIntro">
+					<h2>2008</h2>	
+					<p>东方之珠，整夜未眠</p>
+					<button>香港</button>
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/6.jpg">
+				<span class="sIntro">
+					<h2>2009</h2>	
+					<p>凤凰城里凤凰游，人自堤行江自流</p>
+					<button>湖南</button>
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/7.jpg">
+				<span class="sIntro">
+					<h2>2010</h2>	
+					<p>落日西风见沪城，瓶山终古峙峥嵘</p>
+					<button>上海</button>
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/8.jpg">
+				<span class="sIntro">
+					<h2>2011</h2>	
+					<p>秀山环抱玉明珠，秀水波浮秀女图</p>
+					<button>云南</button>
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/9.jpg">
+				<span class="sIntro">
+					<h2>2012</h2>	
+					<p>请到天涯海角来，海南岛上春风暖</p>
+					<button>海南</button>
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/10.jpg">
+				<span class="sIntro">
+					<h2>2013</h2>	
+					<p>飞流激起千重浪，十里闻声蔚壮观</p>
+					<button>广西</button>
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/11.jpg">
+				<span class="sIntro">
+					<h2>2014</h2>	
+					<p>鼓浪屿海波日夜唱，唱不尽骨肉情长</p>
+					<button>厦门</button>
+				</span>
+			</div>
+			<div class="sHoverItem">
+				<img src="images/12.jpg">
+				<span class="sIntro">
+					<h2>2015</h2>	
+					<p>黄山归来不看岳，五岳归来不看山 </p>
+					<button>安徽</button>
+				</span>
+			</div>
+		</div><!-- /container -->
+	</div>
+	<!-- /part3 -->
+	
+	</main> <!-- cd-main-content -->
+
+	<nav id="cd-lateral-nav">
+		<ul class="cd-navigation">
+				<li><a href="index.html">我的主页</a></li> 
+				<li><a href="Hometown.html">港湾依靠</a></li>			
+				<li><a href="School.html">校园时光</a></li>
+				<li><a href="Travel.html">走走停停</a></li>
+				<li><a href="MyLove.html">分享所爱</a></li>
+		</ul> 
+
+	</nav>
+	
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+</div>
+</body>
+</html>
